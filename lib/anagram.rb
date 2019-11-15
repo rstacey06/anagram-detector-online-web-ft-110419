@@ -8,6 +8,6 @@ class Anagram
   
   def match (array)
    array.select  {|some_word| some_word.split("").sort == @name.split("").sort}
-   #why not need (//)
+   #why not need (//) do only need for more than one?
   end   
 end
